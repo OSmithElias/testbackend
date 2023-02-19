@@ -13,7 +13,7 @@ server.listen(port, ()=>{
 server.get('/', (req,res) => {
     res.statusCode=200
     res.send({
-        message:"We did it!!"
+        message:"The back end is working on EC2!!!"
     });
     console.log(`request recieved`)
 })
